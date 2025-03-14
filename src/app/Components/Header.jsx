@@ -18,7 +18,7 @@ const Header = () =>
 
             {/* Main Heading and Paragraph */ }
             <div className='w-1/2 h-68 flex flex-col items-center justify-center text-center '>
-                <h1 className='text-7xl text-[#1f705d]'>
+                <h1 className='text-8xl text-[#1f705d] font-bold '>
                     Save <span className='text-[#64f07c]'>Thousands</span> Every Single Month.
                 </h1>
                 <p className='text-[#9c9b9d] text-lg mt-4'>
