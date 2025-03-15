@@ -7,7 +7,7 @@ import clsx from 'clsx';
 const StickyBg = () =>
 {
     return (
-        <div className="">
+        <div className=" h-screen w-screen">
             { IMAGES.map( ( img, index ) => (
                 <div
                     key={ img.id }

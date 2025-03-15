@@ -5,9 +5,9 @@ import CTAButton from './CTAButton';
 const Header = () =>
 {
     return (
-        <div className='w-full flex flex-col items-center justify-center h-max'>
+        <div className='w-full flex flex-col items-center justify-center h-max  fixed '>
             {/* Top Section */ }
-            <div className='mt-28  w-full flex items-center justify-center '>
+            <div className='mt-28  w-full flex items-center justify-center  '>
                 <div className='bg-white rounded-full w-[22%] h-max py-2 px-4 shadow-2xl flex gap-2 items-center'>
                     <span>⚡</span>
                     <span className='text-sm text-black'>New features out now!</span>
