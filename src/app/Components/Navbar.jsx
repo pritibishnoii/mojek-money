@@ -21,9 +21,9 @@ const Navbar = () =>
 
     return (
         // className = { notoSans.className }
-        <div className={ twMerge( clsx( "flex justify-center items-center w-full ",
+        <div className={ twMerge( clsx( "flex justify-center items-center w-full  ",
             notoSans.className ) ) }>
-            <nav className={ twMerge( clsx( "bg-white  rounded-full shadow-2xl w-[90%]  py-4 mt-5 h-20    transition-all duration-300 ease-in-out",
+            <nav className={ twMerge( clsx( "bg-white  rounded-full shadow-2xl w-[90%]  py-4 mt-5 h-20    transition-all duration-300 ease-in-out fixed top-0",
                 isHovered ? "h-max rounded-4xl" : "h-20"
             ) ) }>
                 <div className='flex  w-full h-full items-center  text-sm text-gray-900  '>
