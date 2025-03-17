@@ -1,6 +1,7 @@
 import React from 'react';
 import { GoArrowRight } from 'react-icons/go';
 import CTAButton from './CTAButton';
+import Heading from './Headings';
 
 
 
@@ -21,15 +22,15 @@ const Header = () => {
             </div>
 
             {/* Main Heading and Paragraph */ }
-            <div className='w-2/3   flex flex-col items-center justify-center text-center '>
-                <h1 className='text-7xl text-[#1f705d] font-semibold leading-[1.2]'>
-                    Save <span className='text-[#64f07c]'>Thousands</span> Every Single Month.
-                </h1>
-                <p className='text-[#9c9b9d] text-lg mt-4 w-3/4'>
-                    Track smarter, spend better, and save thousands every month with Mojek’s personalized
-                    financial insights.
-                </p>
-            </div>
+
+            <Heading
+                titleParts={ [
+                    { text: "Save", color: "#1e6f5c", className: "" },
+                    { text: "Thousands", color: "#64f07a", className: "" },
+                    { text: "Every Single Month.", color: "#1e6f5c", className: "" }
+                ] }
+                description="Track smarter, spend better, and save thousands every month with Mojek’s personalized financial insights."
+            />
 
             {/* CTA Button */ }
             <div className='mt-8'>
