@@ -15,15 +15,14 @@ const notoSans = Noto_Sans( {
     style: [ 'italic', 'normal' ], // Specify styles
 } );
 
-const Navbar = () =>
-{
+const Navbar = () => {
     const [ isHovered, setIsHovered ] = useState( false )
 
     return (
         // className = { notoSans.className }
-        <div className={ twMerge( clsx( "flex justify-center items-center w-full  ",
+        <div className={ twMerge( clsx( "flex justify-center items-center w-full h-28  ",
             notoSans.className ) ) }>
-            <nav className={ twMerge( clsx( "bg-white  rounded-full shadow-2xl w-[90%]  py-4 mt-5 h-20    transition-all duration-300 ease-in-out fixed top-0",
+            <nav className={ twMerge( clsx( "bg-white  rounded-full shadow-2xl w-[95%]  py-4 mt-4 h-16    transition-all duration-300 ease-in-out fixed top-0 z-10",
                 isHovered ? "h-max rounded-4xl" : "h-20"
             ) ) }>
                 <div className='flex  w-full h-full items-center  text-sm text-gray-900  '>

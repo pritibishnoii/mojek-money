@@ -3,8 +3,8 @@ const nextConfig = {
     images: {
         domains: [
             'cdn.prod.website-files.com',
-            'example.com',
-            'another-domain.com',
+            'media.istockphoto.com',
+
         ]
     }
 };
