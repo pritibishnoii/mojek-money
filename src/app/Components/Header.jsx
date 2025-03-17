@@ -23,14 +23,16 @@ const Header = () => {
 
             {/* Main Heading and Paragraph */ }
 
-            <Heading
-                titleParts={ [
-                    { text: "Save", color: "#1e6f5c", className: "" },
-                    { text: "Thousands", color: "#64f07a", className: "" },
-                    { text: "Every Single Month.", color: "#1e6f5c", className: "" }
-                ] }
-                description="Track smarter, spend better, and save thousands every month with Mojek’s personalized financial insights."
-            />
+            <div className='flex justify-center'>
+                <Heading
+                    titleParts={ [
+                        { text: "Save", color: "#1e6f5c", className: "" },
+                        { text: "Thousands", color: "#64f07a", className: "" },
+                        { text: "Every Single Month.", color: "#1e6f5c", className: "" }
+                    ] }
+                    description="Track smarter, spend better, and save thousands every month with Mojek’s personalized financial insights."
+                />
+            </div>
 
             {/* CTA Button */ }
             <div className='mt-8'>

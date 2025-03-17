@@ -35,7 +35,7 @@ const CardContainer = () => {
     }, [] );
 
     return (
-        <div className="min-h-screen w-full flex flex-col justify-center items-center gap-10 py-16 card-container mt-20">
+        <div className="min-h-screen w-full flex flex-col justify-center items-center gap-12 py-16 card-container mt-20">
             {/* First Cards Section */ }
             <Cards
                 imagesArr={ [

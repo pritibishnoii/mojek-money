@@ -22,7 +22,7 @@ const CardContainer = ( { imagesArr } ) => {
                 ease: "power3.out",
                 scrollTrigger: {
                     trigger: ".card-container",
-                    start: "top 80%", // Start animation when 80% of the page is scrolled
+                    // start: "top 80%", // Start animation when 80% of the page is scrolled
                     scroller: "body", // Uses full page scroll
                     toggleActions: "play none none reverse",
                 },
@@ -31,7 +31,7 @@ const CardContainer = ( { imagesArr } ) => {
     }, [] );
 
     return (
-        <div className="flex flex-wrap justify-center items-start gap-12 w-3/4">
+        <div className="flex flex-wrap justify-center items-start gap-12 w-full">
             { imagesArr.map( ( src, index ) => (
                 <div key={ index } ref={ ( el ) => ( imagesRef.current[ index ] = el ) } className="relative">
                     <Image

@@ -3,7 +3,7 @@ import React, { forwardRef } from "react";
 const Heading = forwardRef( ( { titleParts, description, className }, ref ) => {
     return (
         <div ref={ ref } className={ `w-2/3 flex flex-col items-center justify-center text-center ${ className }` }>
-            <h1 className="text-7xl font-semibold leading-[1.2]">
+            <h1 className="text-7xl  leading-[1.2]">
                 { titleParts.map( ( part, index ) => (
                     <span key={ index } style={ { color: part.color } } className={ part.className }>
                         { part.text }{ " " }
