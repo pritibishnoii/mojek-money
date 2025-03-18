@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import InfoCard from "./InfoCard";
 import { BankCardImages } from "../../utils/BankCard";
+import SearchBar from "./SearchBar";
 
 const TransactionTracker = () => {
     const [ currentIndex, setCurrentIndex ] = useState( 0 );
@@ -51,6 +52,8 @@ const TransactionTracker = () => {
                 />
             </div>
 
+            {/* search bar  */ }
+            <SearchBar />
             {/* Another Two-Column Layout */ }
             <div className="w-[80%] flex gap-12">
                 <InfoCard

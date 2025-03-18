@@ -1,9 +1,9 @@
+"use client";
 import clsx from 'clsx';
 import React from 'react';
 import { twMerge } from 'tailwind-merge';
 
-const CTAButton = ( { children, hoverColor, bgColor } ) =>
-{
+const CTAButton = ( { children, hoverColor, bgColor } ) => {
     return (
         <button
             className={ twMerge(

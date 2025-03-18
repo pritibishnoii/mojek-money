@@ -31,7 +31,7 @@ const CardContainer = ( { imagesArr } ) => {
     }, [] );
 
     return (
-        <div className="flex flex-wrap justify-center items-start gap-12 w-full">
+        <div className="flex flex-wrap justify-center items-start gap-12 w-full">66
             { imagesArr.map( ( src, index ) => (
                 <div key={ index } ref={ ( el ) => ( imagesRef.current[ index ] = el ) } className="relative">
                     <Image

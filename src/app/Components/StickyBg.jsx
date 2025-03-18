@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { IMAGES } from '../../utils/Data';
 import Image from 'next/image';
